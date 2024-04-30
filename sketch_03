@@ -1,0 +1,21 @@
+let font;
+let points = [];
+
+function preload() {
+  font = loadFont('Play/Play-Bold.ttf');
+}
+
+function setup() {
+  createCanvas(600, 600);
+  points = font.textToPoints('GM', 50, 300, 300); //, x, y, x2, y2)
+  print(points);
+
+}
+
+function draw() {
+  background(0);
+  for (let i = 0; i < points.length; i++) {
+    ellipse(points[i].x, points[i].y, 10, 10);
+  } 
+  //THAT'S WHAT POINTS CAN DO WHEN YOU ITERATE THEM
+}

@@ -1,0 +1,19 @@
+let font;
+let points = [];
+
+function preload() {
+  font = loadFont('Play/Play-Bold.ttf');
+}
+
+function setup() {
+  createCanvas(600, 600);
+
+  points = font.textToPoints('GM', 50, 300, 300); 
+  print(points);
+  //CHECK OUT THE CONSOLE!!! 
+
+}
+
+function draw() {
+  background(0);
+}

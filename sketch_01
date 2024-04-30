@@ -1,0 +1,15 @@
+let font;
+function preload() {
+  font = loadFont('Play/Play-Bold.ttf');
+}
+
+function setup() {
+  createCanvas(800, 800);
+  fill('blue');
+  textFont(font);
+  textSize(65);
+
+  // Display the text.
+  text('Typing is Fun!', 25, 65);
+
+}
