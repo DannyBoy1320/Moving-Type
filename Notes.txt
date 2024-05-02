@@ -1,5 +1,8 @@
 Using a stearing wheel for moving type based on certain movements for the intials. 
 For my intials I would create a wave based on movements when I'm pressing buttons on the logitech G923 Wheel which it is used for simlulation racing games. 
+
+For this project the Logitech G923 steering Wheel will be used on movements on how you control your vehicle depedning how fast and slow you drive.
+
 // Logitech G923 keycodes
 // Generative AI is experimental.
 // Learn more… Here are the keycodes for the Logitech G923 racing wheel in JavaScript:
