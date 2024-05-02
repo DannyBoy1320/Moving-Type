@@ -3,6 +3,9 @@ For my intials I would create a wave based on movements when I'm pressing button
 
 For this project the Logitech G923 steering Wheel will be used on movements on how you control your vehicle depedning how fast and slow you drive.
 
+
+This project for the steering wheel will be used for movements based on what you are control
+
 // Click on the canvas to begin detecting key presses.
 
 let x = 50;
